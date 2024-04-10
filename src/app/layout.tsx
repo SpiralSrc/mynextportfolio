@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.variable} ${sacramento.variable} text-primary`}>
         <Bg />
-        <main className="w-screen h-screen overflow-y-scroll">{children}</main>
+        <main className="w-screen h-screen">{children}</main>
       </body>
     </html>
   );

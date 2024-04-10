@@ -9,7 +9,7 @@ const Bg = () => {
           <Image src={bg} fill alt="bg" className="object-cover" />
         </div>
       </div>
-      <div className="fixed w-screen h-screen top-0 left-0 -z-20 bg-black/25 backdrop-blur-[2px]" />
+      <div className="fixed w-screen h-screen top-0 left-0 -z-20 bg-section-gradient/95 backdrop-blur-[3px]" />
     </>
   );
 };

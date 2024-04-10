@@ -1,7 +1,11 @@
+import About from "@/components/home/About";
+import Hero from "@/components/home/Hero";
+
 export default function Home() {
   return (
-    <div className="w-full pt-24 text-center">
-      <h1 className="font-sacramento text-4xl font-bold">Homepage</h1>
-    </div>
+    <>
+      <Hero />
+      <About />
+    </>
   );
 }

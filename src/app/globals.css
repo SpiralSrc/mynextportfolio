@@ -24,7 +24,7 @@ body::-webkit-scrollbar {
 body {
   color: antiquewhite;
   background-color: rgb(31, 27, 27);
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 @layer utilities {

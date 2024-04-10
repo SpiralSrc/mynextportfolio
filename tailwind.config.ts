@@ -5,10 +5,10 @@ const config: Config = {
   theme: {
     extend: {
       screens: {
-        xs: "350px",
-        xxs: "480px",
+        xxs: "350px",
+        xs: "480px",
         sm: "640px",
-        md: "768px",
+        md: "840px",
         lg: "1024px",
         xl: "1280px",
         "2xl": "1536px",
@@ -29,9 +29,11 @@ const config: Config = {
       colors: {
         primary: "rgba(54, 41, 41, 0.822)",
         secondary: "#F4DFC8",
+        "gradient-sm": "linear-gradient(to bottom, #f59f99b0, #cea89c, #f3d5cf)",
       },
       boxShadow: {
-        "over-inset": "inset 3px 3px 50px 10px rgba(2, 2, 2, 0.412)",
+        "over-inset-sm": "inset 3px 3px 50px 10px rgba(2, 2, 2, 0.412)",
+        "over-inset-md": "inset 5px 5px 100px 20px rgba(2, 2, 2, 0.412)",
       },
       borderRadius: {
         trbl: "5% 40% 5% 40%",

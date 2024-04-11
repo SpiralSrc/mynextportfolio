@@ -34,7 +34,11 @@ const Navbar = () => {
           ))}
         </div>
         <div className="flex md:hidden">
-          {!navModal ? <GrMenu size={28} className="hover:text-primary hover:btn-effect" onClick={() => setNavModal(true)} /> : ""}
+          {!navModal ? (
+            <GrMenu size={35} className="p-2 rounded-3xl hover:bg-secondary/50 hover:text-primary btn-effect" onClick={() => setNavModal(true)} />
+          ) : (
+            ""
+          )}
           {navModal && <NavModal setNavModal={setNavModal} />}
         </div>
       </div>

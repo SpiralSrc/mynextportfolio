@@ -11,7 +11,7 @@ const About = () => {
         <ImageOverlay />
       </div>
       <div className="max-w-7xl mx-auto h-full py-20 px-3 xl:px-0">
-        <div className="w-full h-full text-lg pt-3 indent-4 flex flex-col gap-5 px-6 md:px-14 lg:px-0">
+        <div className="w-full h-full text-lg pt-7 indent-4 flex flex-col gap-5 px-6 md:px-14 border-2 border-primary/60 rounded-xl ">
           <p>
             I am a <strong>Front-end Developer</strong> based in the US, specialized in creating modern and responsive websites and landing pages. As
             the world of programming is constantly evolving seeking to find better solutions or make coding easier, I myself is currently expanding my
@@ -22,10 +22,10 @@ const About = () => {
             industry trends and technologies.
           </p>
 
-          <div className="flex mt-10 px-3 md:p-0">
+          <div className="flex my-10 px-3 md:p-0">
             <Link
               href={"/about"}
-              className="bg-primary/90 text-[1.2vh] text-secondary flex rounded-full py-3 pl-2 pr-5 border border-primary btn-effect hover:text-primary hover:bg-primary/50 shadow-xl"
+              className="bg-primary/90 text-[1.6vh] text-secondary flex rounded-full py-2 pl-2 pr-5 border border-primary btn-effect hover:text-primary hover:bg-primary/50 shadow-xl"
             >
               Read more...
             </Link>

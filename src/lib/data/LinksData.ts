@@ -5,6 +5,9 @@ import { FaReact } from "react-icons/fa";
 import { SiTailwindcss, SiMongodb } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa6";
 
+// socials icons
+import { FaGithub } from "react-icons/fa";
+
 export const navLinks = [
   {
     title: "Home",
@@ -28,7 +31,7 @@ export const navLinks = [
   },
 ];
 
-const skillsData = [
+export const skillsData = [
   {
     name: "HTML5",
     icon: AiOutlineHtml5,
@@ -61,5 +64,13 @@ const skillsData = [
   {
     name: "NodeJs",
     icon: FaNodeJs,
+  },
+];
+
+export const socialsData = [
+  {
+    name: "Github",
+    icon: FaGithub,
+    link: "https://github.com/",
   },
 ];

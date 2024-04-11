@@ -10,7 +10,7 @@ const About = () => {
         <Image src={aboutBanner} alt="about banner" fill className="object-cover object-bottom lg:object-center" />
         <ImageOverlay />
       </div>
-      <div className="max-w-7xl mx-auto h-full py-20 px-2 xl:px-0">
+      <div className="max-w-7xl mx-auto h-full py-20 px-3 xl:px-0">
         <div className="w-full h-full text-lg pt-3 indent-4 flex flex-col gap-5 px-6 md:px-14 lg:px-0">
           <p>
             I am a <strong>Front-end Developer</strong> based in the US, specialized in creating modern and responsive websites and landing pages. As

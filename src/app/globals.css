@@ -35,4 +35,19 @@ body {
   .btn-effect {
     transition: all 500ms ease-in;
   }
+
+  .slideFromLeft {
+    animation: slideFromLeft 800ms ease;
+  }
+
+  @keyframes slideFromLeft {
+    from {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
 }

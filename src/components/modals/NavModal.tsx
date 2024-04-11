@@ -11,10 +11,10 @@ const NavModal = ({ setNavModal }: any) => {
   const currentPath = usePathname();
 
   return (
-    <div className="fixed w-screen h-screen z-40 top-0 left-0 bg-black/50" onClick={() => setNavModal(false)}>
+    <div className="fixed w-screen h-screen z-40 top-0 left-0 bg-black/50 backdrop-blur-md" onClick={() => setNavModal(false)}>
       <CgClose size={28} className="absolute top-10 right-10" onClick={() => setNavModal(false)} />
       <div
-        className="w-80 h-full left-0 top-0 flex flex-col justify-between items-center  bg-section-gradient text-primary/50 font-semibold py-16"
+        className="w-80 h-full left-0 top-0 flex flex-col justify-between items-center slideFromLeft bg-section-gradient text-primary/50 font-semibold py-16"
         onClick={(e) => e.stopPropagation()}
       >
         <div className="w-9 h-9">

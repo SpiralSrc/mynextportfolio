@@ -19,17 +19,26 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 /* General stylings */
 
 body {
   color: antiquewhite;
   background-color: rgb(31, 27, 27);
   overflow-x: hidden;
+  scrollbar-width: none;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+
+  .smooth-effect {
+    transition: all 700ms ease-in;
   }
 
   .btn-effect {

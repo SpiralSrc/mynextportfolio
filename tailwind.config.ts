@@ -20,7 +20,8 @@ const config: Config = {
         sacramento: ["var(--font-sacramento)"],
       },
       backgroundImage: {
-        "section-gradient": "linear-gradient(to bottom, #f59f99b0, #cea89c, #f3d5cf)",
+        "section-gradient1": "linear-gradient(to bottom, #f59f99b0, #cea89c, #f3d5cf)",
+        "section-gradient2": "linear-gradient(to bottom, #f59f99b0, #cea89c, #f3d5cf)",
         "dark-gradient": "linear-gradient(170deg, rgba(47,20,9,1) 38%, rgba(92,28,5,1) 79%, rgba(158,108,90,1) 96%)",
         "dark-overlay": "rgba(255, 255, 255, 0.589)",
         "darker-overlay": "rgba(255, 255, 255, 1)",

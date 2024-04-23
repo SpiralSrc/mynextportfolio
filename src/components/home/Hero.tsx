@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <section id="hero" className="w-full h-[95vh] relative xs:h-[85vh] bg-section-gradient overflow-hidden shadow-2xl ">
+    <section id="hero" className="w-full h-[95vh] relative xs:h-[85vh] bg-section-gradient2 overflow-hidden shadow-2xl ">
       <div className="w-full h-full flex flex-row">
         <div className="w-[80%] xs:w-[75%] h-full flex flex-col justify-center items-center sm:pr-10 lg:pr-0">
           <div className="flex flex-col">
@@ -24,7 +24,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="w-[20%] xs:w-[25%] h-full flex items-center shadow-inner bg-primary">
-          <div className="hidden sm:block min-w-[280px] h-[370px] xl:w-[350px] xl:h-[450px] overflow-hidden relative shadow-inner bg-primary/60 border-2 border-primary/40 rounded-[30%] sm:-translate-x-36">
+          <div className="hidden sm:block min-w-[280px] h-[370px] xl:w-[350px] xl:h-[450px] overflow-hidden backdrop-blur-md relative shadow-inner bg-primary/60 border-2 border-primary/40 rounded-[30%] sm:-translate-x-36">
             <Image
               src={heroBanner}
               alt="hero banner"

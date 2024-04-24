@@ -2,7 +2,7 @@ import { AiOutlineHtml5 } from "react-icons/ai";
 import { TbBrandCss3, TbBrandNextjs } from "react-icons/tb";
 import { RiJavascriptLine } from "react-icons/ri";
 import { FaReact } from "react-icons/fa";
-import { SiTailwindcss, SiMongodb } from "react-icons/si";
+import { SiTailwindcss, SiMongodb, SiPrisma, SiMongoose } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa6";
 
 // socials icons
@@ -33,6 +33,14 @@ export const navLinks = [
 
 export const skillsData = [
   {
+    name: "ReactJs",
+    icon: FaReact,
+  },
+  {
+    name: "NextJs",
+    icon: TbBrandNextjs,
+  },
+  {
     name: "HTML5",
     icon: AiOutlineHtml5,
   },
@@ -49,21 +57,20 @@ export const skillsData = [
     icon: SiTailwindcss,
   },
   {
-    name: "ReactJs",
-    icon: FaReact,
-  },
-  {
-    name: "NextJs",
-    icon: TbBrandNextjs,
-  },
-
-  {
     name: "MongoDb",
     icon: SiMongodb,
   },
   {
     name: "NodeJs",
     icon: FaNodeJs,
+  },
+  {
+    name: "Prisma ORM",
+    icon: SiPrisma,
+  },
+  {
+    name: "Mongoose",
+    icon: SiMongoose,
   },
 ];
 

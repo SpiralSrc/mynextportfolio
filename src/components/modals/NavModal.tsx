@@ -18,7 +18,7 @@ const NavModal = ({ setNavModal }: any) => {
         onClick={() => setNavModal(false)}
       />
       <div
-        className="w-56 xxs:w-72 xs:w-80 h-full left-0 top-0 flex flex-col justify-between items-center slideFromLeft bg-section-gradient text-primary/50 font-semibold py-16"
+        className="w-56 xxs:w-72 xs:w-80 h-full left-0 top-0 flex flex-col justify-between items-center slideFromLeft bg-section-gradient1 text-primary/50 font-semibold py-16"
         onClick={(e) => e.stopPropagation()}
       >
         <div className="w-9 h-9">

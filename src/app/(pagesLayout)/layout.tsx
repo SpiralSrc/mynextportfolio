@@ -9,5 +9,5 @@ export const metadata: Metadata = {
 };
 
 export default function pagesLayout({ children }: { children: React.ReactNode }) {
-  return <div className="w-screen h-screen bg-section-gradient1">{children}</div>;
+  return <div className="w-screen bg-section-gradient1">{children}</div>;
 }

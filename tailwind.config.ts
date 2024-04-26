@@ -34,7 +34,7 @@ const config: Config = {
       },
       boxShadow: {
         "over-inset-sm": "inset 3px 3px 50px 10px rgba(2, 2, 2, 0.412)",
-        "over-inset-md": "inset 5px 5px 100px 20px rgba(2, 2, 2, 0.412)",
+        "over-inset-md": "inset 5px 5px 100px 20px rgba(2, 2, 2, 0.712)",
       },
       borderRadius: {
         trbl: "5% 40% 5% 40%",

@@ -38,7 +38,7 @@ const Hero = () => {
       </div>
       <div className="absolute bottom-1 left-3  z-10 flex">
         <div className="relative w-[25vw] sm:w-[20vw] h-[20vh]">
-          <Image src={corner} alt="png" fill className="object-contain opacity-80" />
+          <Image src={corner} alt="png" fill sizes="(max-width: 400px) 100vw, (max-width: 640px) 50vw, 33vw" className="object-contain opacity-80" />
         </div>
       </div>
     </section>

@@ -3,7 +3,7 @@ import Skills from "@/components/about/Skills";
 
 export default function page() {
   return (
-    <section>
+    <section className="bg-section-gradient1">
       <div className="max-w-7xl mx-auto flex flex-col py-24 px-3 xl:px-0">
         <h1 className="text-center font-sacramento font-bold text-5xl mt-24">About Me</h1>
         <Me />

@@ -19,7 +19,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex flex-row justify-between items-center px-3 xl:px-0">
         <Link href={"/"} className="flex flex-row gap-2 justify-center items-center">
           <div className="relative w-9 h-9">
-            <Image src={logo} alt="logo" fill className="object-cover" />
+            <Image src={logo} alt="logo" fill sizes="(max-width: 36px) 100vw, (max-width: 36px) 50vw, 33vw" className="object-cover" />
           </div>
           <span className="font-sacramento font-bold text-2xl bg-clip-text text-transparent bg-gradient-to-bl from-red-500 to-red-300">
             SpiralSrc

@@ -26,6 +26,7 @@ const config: Config = {
         "dark-overlay": "rgba(255, 255, 255, 0.589)",
         "darker-overlay": "rgba(255, 255, 255, 1)",
         "sm-overlay": "rgba(167, 99, 99, 0.233)",
+        "contact-card": "url('/public/assets/pic1.jpg')",
       },
       colors: {
         primary: "rgba(54, 41, 41, 0.822)",

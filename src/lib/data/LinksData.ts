@@ -19,12 +19,12 @@ export const navLinks = [
   },
   {
     title: "Projects",
-    path: "/projects",
+    path: "/#projects",
   },
-  {
-    title: "Blogs",
-    path: "/blogs",
-  },
+  // {
+  //   title: "Blogs",
+  //   path: "/blogs",
+  // },
   {
     title: "Contact",
     path: "/contact",

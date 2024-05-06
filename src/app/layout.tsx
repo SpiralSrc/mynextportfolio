@@ -25,8 +25,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.variable} ${sacramento.variable} text-primary`}>
-        <Bg />
         <main className="w-screen h-screen">
+          <Bg />
           <Navbar />
           {children}
           <Footer />

@@ -43,7 +43,7 @@ export const projectsData = [
         icon: "",
       },
     ],
-    url: "",
+    url: "https://spiralsrc.dev/template/",
     pc: "",
     mobile: "",
   },

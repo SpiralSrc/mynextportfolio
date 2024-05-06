@@ -33,12 +33,6 @@ body {
 }
 
 @layer components {
-  .bg-contact {
-    background-image: url("../../public/assets/pic1.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-
   .bg-effect {
     background: rgba(167, 99, 99, 0.445);
     backdrop-filter: blur(0.03rem);
@@ -46,6 +40,12 @@ body {
 }
 
 @layer utilities {
+  .bg-contact {
+    background-image: url("../../public/assets/pic1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
   .text-balance {
     text-wrap: balance;
   }

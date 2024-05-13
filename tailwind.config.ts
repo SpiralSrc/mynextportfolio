@@ -40,8 +40,15 @@ const config: Config = {
       borderRadius: {
         trbl: "5% 40% 5% 40%",
       },
+      typography: {
+        DEFAULT: {
+          css: {
+            color: "rgba(54, 41, 41, 0.822)",
+          },
+        },
+      },
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 };
 export default config;

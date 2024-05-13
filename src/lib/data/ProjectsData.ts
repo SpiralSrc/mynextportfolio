@@ -4,6 +4,7 @@ import startpage from "../../../public/projects-assets/startpage.png";
 
 export const projectsData = [
   {
+    id: 1,
     name: "Rustic Roots Salon",
     desc: "Business website personally designed based on client's theme.",
     banner: rrs,
@@ -26,6 +27,7 @@ export const projectsData = [
     mobile: "",
   },
   {
+    id: 2,
     name: "Exotic",
     desc: "Sample landing page template.",
     banner: sampleTemplate,
@@ -48,6 +50,7 @@ export const projectsData = [
     mobile: "",
   },
   {
+    id: 3,
     name: "My Startpage",
     desc: "Personal project used as everyday startpage, with note taking using in-app rich text editor and saving links.",
     banner: startpage,

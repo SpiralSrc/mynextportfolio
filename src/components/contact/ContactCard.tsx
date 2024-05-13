@@ -9,7 +9,7 @@ const ContactCard = () => {
     console.log("Button clicked!");
   }
   return (
-    <Form action={send} className="md:w-[55%] px-5  flex flex-col gap-5 pt-20 pb-32">
+    <Form action={send} className="md:w-[50%] px-5  flex flex-col gap-5 pt-20 pb-32">
       <Input type="text" name="name" placeholder="Name" />
       <Input type="email" name="email" placeholder="Email" />
       <textarea

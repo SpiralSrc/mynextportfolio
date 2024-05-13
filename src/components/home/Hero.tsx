@@ -30,6 +30,7 @@ const Hero = () => {
               alt="hero banner"
               width={600}
               height={750}
+              placeholder="blur"
               className="w-full h-full opacity-80 object-cover blur-[2px] xs:blur-[1px]"
             />
             <ImageOverlay />

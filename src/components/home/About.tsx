@@ -7,7 +7,7 @@ const About = () => {
   return (
     <section className="w-full bg-section-gradient1">
       <div className="w-full h-80 sm:h-96 md:h-[450px] lg:h-[550px] xl:h-[600px] relative rounded-b-[10%] overflow-hidden shadow-2xl">
-        <Image src={aboutBanner} alt="about banner" fill className="object-cover object-bottom lg:object-center" />
+        <Image src={aboutBanner} alt="about banner" fill placeholder="blur" className="object-cover object-bottom lg:object-center" />
         <ImageOverlay />
       </div>
       <div className="max-w-7xl mx-auto h-full py-20 px-3 xl:px-0">

@@ -18,6 +18,8 @@ const config: Config = {
       fontFamily: {
         inter: ["var(--font-inter)"],
         sacramento: ["var(--font-sacramento)"],
+        roboto: ["var(--font-roboto)"],
+        vibes: ["var(--font-vibes)"],
       },
       backgroundImage: {
         "section-gradient1": "linear-gradient(to bottom, #f59f99b0, #cea89c, #f3d5cf)",
@@ -40,10 +42,46 @@ const config: Config = {
       borderRadius: {
         trbl: "5% 40% 5% 40%",
       },
+
       typography: {
         DEFAULT: {
           css: {
             color: "rgba(54, 41, 41, 0.822)",
+            h1: {
+              color: "rgba(54, 41, 41, 0.822)",
+            },
+            h2: {
+              color: "rgba(54, 41, 41, 0.822)",
+            },
+            h3: {
+              color: "rgba(54, 41, 41, 0.822)",
+            },
+            h4: {
+              color: "rgba(54, 41, 41, 0.822)",
+            },
+            a: {
+              display: "flex",
+              color: "rgba(54, 41, 41, 0.622)",
+              textDecoration: "none",
+
+              "&:hover": {
+                color: "rgba(54, 41, 41, 0.822)",
+              },
+            },
+            button: {
+              borderRadius: "20px",
+              placeItem: "end",
+              padding: "10px",
+              borderWidth: "1px",
+              borderColor: "rgba(54, 41, 41, 0.122)",
+              backgroundColor: "rgba(54, 41, 41, 0.222)",
+
+              "&:hover": {
+                borderWidth: "1px",
+                borderColor: "rgba(54, 41, 41, 0.622)",
+                boxShadow: "0 20px 25px -5px rgb(0 0 0/ 0.1)",
+              },
+            },
           },
         },
       },

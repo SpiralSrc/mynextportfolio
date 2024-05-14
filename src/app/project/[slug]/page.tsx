@@ -28,7 +28,9 @@ export async function generateMetadata({ params, searchParams }: any) {
 const renderToHtml = {
   // Add custom renderer for all HTML elements
   // Render all HTML elements as is
-  html: ({ children }: { children: React.ReactNode }) => <div dangerouslySetInnerHTML={{ __html: children as TrustedHTML }} />,
+  html: ({ children }: { children: React.ReactNode }) => (
+    <div className="w-full flex" dangerouslySetInnerHTML={{ __html: children as TrustedHTML }} />
+  ),
 };
 
 export default function page(props: any) {
@@ -39,8 +41,10 @@ export default function page(props: any) {
   return (
     <section className="bg-section-gradient1">
       <div className="max-w-7xl mx-auto flex flex-col py-24 px-2 xl:px-0">
-        <div className="prose prose-lg xl:prose-xl prose-slate">
-          <Markdown options={{ overrides: renderToHtml }}>{post.content}</Markdown>
+        <div className="w-[96%] mx-auto max-w-none flex py-10 text-primary prose xl:prose-lg prose-sm prose-primary prose-h1:text-center prose-h1:font-vibes prose-video:rounded-md prose-video:mx-auto">
+          <Markdown className="w-full prose-p:indent-10" options={{ overrides: renderToHtml }}>
+            {post.content}
+          </Markdown>
         </div>
       </div>
     </section>

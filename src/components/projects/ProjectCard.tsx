@@ -1,4 +1,3 @@
-import { projectsData } from "@/lib/data/ProjectsData";
 import Image from "next/image";
 import Link from "next/link";
 

@@ -11,7 +11,7 @@ const Hero = () => {
         <div className="w-[80%] xs:w-[75%] h-full flex flex-col justify-center items-center sm:pr-10 lg:pr-0">
           <div className="flex flex-col">
             <h2 className="text-[2.3vh] font-bold">Hi,</h2>
-            <span className="text-[7vh] font-sacramento font-bold">I&apos;m Rae</span>
+            <span className="text-[7vh] font-vibes font-bold">I&apos;m Rae</span>
             <p className="text-primary/55 text-[1.8vh]">A Frontend Developer</p>
             <div className="flex mt-10  md:first-line:p-0 ">
               <Link

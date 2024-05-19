@@ -16,3 +16,11 @@ A sample template that can be used as a landing page or a homepage of a website.
 </video>
 
 <button>[Visit Website](https://spiralsrc.dev/template/)</button>
+
+<hr/>
+
+#### Technologies used:
+
+- HTML5
+- CSS3
+- Javascript

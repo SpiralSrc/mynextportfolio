@@ -42,6 +42,9 @@ const config: Config = {
       borderRadius: {
         trbl: "5% 40% 5% 40%",
       },
+      hr: {
+        borderColor: "rgba(54, 41, 41, 0.322)",
+      },
       typography: {
         DEFAULT: {
           css: {

@@ -19,9 +19,12 @@ const ProjectCard = (props: any) => {
           />
           <div className="w-full h-full absolute top-0 left-0 z-10 scale-110 group-hover:scale-105 shadow-over-inset-sm group-hover:shadow-none group-hover:btn-effect" />
         </div>
-        <div className="absolute w-full bottom-0 left-0 px-2 py-5 bg-primary/20 backdrop-blur-sm text-secondary opacity-0 group-hover:opacity-100 group-hover:smooth-effect">
+        <div className="absolute w-full bottom-0 left-0 px-4 py-5 bg-primary/20 backdrop-blur-sm text-secondary opacity-0 group-hover:opacity-100 group-hover:smooth-effect">
           <h3 className="font-bold">{post.title}</h3>
           <p className="line-clamp-2">{post.desc}</p>
+          <button className="bg-secondary/30 text-primary p-2 rounded-xl my-2 backdrop-blur-sm border border-secondary/10 group-hover:shadow-xl group-hover:border-primary/60 ">
+            Read more...
+          </button>
         </div>
       </article>
     </Link>

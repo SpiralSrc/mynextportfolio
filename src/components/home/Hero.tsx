@@ -10,13 +10,13 @@ const Hero = () => {
       <div className="w-full h-full flex flex-row">
         <div className="w-[80%] xs:w-[75%] h-full flex flex-col justify-center items-center sm:pr-10 lg:pr-0">
           <div className="flex flex-col">
-            <h2 className="text-[2.3vh] font-bold">Hi,</h2>
-            <span className="text-[7vh] font-vibes font-bold">I&apos;m Rae</span>
+            <h2 className="text-xl lg:text-3xl font-bold mb-3">Hi,</h2>
+            <span className="text-4xl xs:text-5xl lg:text-6xl font-vibes font-bold mb-3">I&apos;m Rae</span>
             <p className="text-primary/55 text-[1.8vh]">A Frontend Developer</p>
             <div className="flex mt-10  md:first-line:p-0 ">
               <Link
                 href={"/contact"}
-                className="bg-primary/90 text-[1.5vh] text-secondary flex rounded-full py-3 px-5 border border-primary btn-effect hover:text-primary hover:bg-primary/50 shadow-xl"
+                className="bg-primary/70 text-[11px] xs:text-sm md:text-[1rem] py-3 px-4 text-secondary flex rounded-full border border-primary btn-effect hover:text-primary hover:bg-primary/50 shadow-xl"
               >
                 Get in touch...
               </Link>

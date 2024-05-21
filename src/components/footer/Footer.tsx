@@ -13,7 +13,7 @@ const Footer = () => {
 
   return (
     <footer className="bg-primary backdrop-blur-md text-secondary">
-      <div className="max-w-7xl mx-auto py-20 px-4 xl:px-2">
+      <div className="max-w-7xl mx-auto py-11 md:py-20 px-4 xl:px-2">
         <div className="w-full flex md:flex-row flex-col gap-10 md:gap-4 md:justify-between items-center mb-7">
           <Link href={"/"} className="flex flex-row gap-2 justify-center items-center opacity-50">
             <div className="relative w-9 h-9">
@@ -23,7 +23,7 @@ const Footer = () => {
               SpiralSrc
             </span>
           </Link>
-          <div className="flex flex-col md:flex-row justify-center items-center gap-4">
+          <div className="flex flex-col md:flex-row justify-center items-center gap-4 text-sm md:text-md">
             {navLinks.map((nav, id) => (
               <Link href={nav.path} key={id} className={`${nav.path === currentPath ? "text-secondary" : "text-secondary/60"}`}>
                 {nav.title}
@@ -39,7 +39,7 @@ const Footer = () => {
         <div className="flex flex-row justify-center items-center mt-2">
           {socialsData.map((social, id) => (
             <a key={id} href={social.link} target="_blank" rel="noopener noreferrer">
-              {<social.icon size={12} className="text-secondary/40" />}
+              {<social.icon size={12} className="text-secondary/40 " />}
             </a>
           ))}
         </div>

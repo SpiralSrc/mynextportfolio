@@ -1,7 +1,9 @@
+import Image from "next/image";
+
 const Me = () => {
   return (
-    <div className="w-full flex flex-col-reverse md:flex-row justify-center md:justify-between gap-10 mt-20">
-      <div className="w-full md:w-4/6">
+    <div className="w-full flex flex-col-reverse md:flex-row justify-center md:justify-between gap-10 mt-10 md:mt-20">
+      <div className="w-full md:w-4/6 px-5 lg:px-2">
         <div className="flex flex-col gap-4">
           <p className="indent-7">
             Hi, <strong>I&apos;m Rae</strong>, and I bring a unique perspective to frontend development, having transitioned from a career in nursing
@@ -28,7 +30,14 @@ const Me = () => {
         </div>
       </div>
       <div className="md:w-[30%] flex justify-center">
-        <div className="w-60 h-60 rounded-full overflow-hidden relative bg-primary/40 border-2 border-primary"></div>
+        <div className="w-48 md:w-60 h-60 md:h-80 lg:h-auto rounded-full overflow-hidden relative bg-primary/70 border-2 border-primary">
+          <Image
+            src={"https://res.cloudinary.com/dtw9b5stp/image/upload/v1716240822/portfolioassets/z44fqzdgu3uq1fum0y46.png"}
+            fill
+            alt="me"
+            className="w-full h-full object-cover hover:scale-105 hover:smooth-effect opacity-70 blur-[0.5px]"
+          />
+        </div>
       </div>
     </div>
   );

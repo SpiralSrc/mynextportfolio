@@ -3,6 +3,7 @@ import Markdown from "markdown-to-jsx";
 import React from "react";
 import matter from "gray-matter";
 import getPostMetadata from "../../../../utils/getPostMetadata";
+import Link from "next/link";
 
 function getPostContent(slug: any) {
   const folder = "projects/";
@@ -40,9 +41,17 @@ export default function page(props: any) {
 
   return (
     <section className="bg-section-gradient1">
-      <div className="max-w-7xl mx-auto flex flex-col py-24 px-2 xl:px-0">
+      <div className="max-w-7xl mx-auto flex flex-col py-16 md:py-24 px-2 xl:px-0">
         <div className="w-[96%] mx-auto max-w-none flex py-10 prose-p:indent-10 text-primary marker:text-primary/80 prose xl:prose-lg prose-sm prose-h1:text-center prose-h1:font-vibes prose-video:rounded-md prose-video:mx-auto">
           <Markdown options={{ overrides: renderToHtml }}>{post.content}</Markdown>
+        </div>
+        <div className="flex justify-end items-center pr-5">
+          <Link
+            href={"/#projects"}
+            className="py-2 px-5 my-10 bg-primary/20 rounded-xl border border-primary/20 hover:border-primary/50 hover:shadow-xl hover:btn-effect"
+          >
+            Go back...
+          </Link>
         </div>
       </div>
     </section>

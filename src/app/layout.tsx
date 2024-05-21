@@ -25,7 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable}  ${vibes.variable} ${sacramento.variable} ${roboto.variable} text-primary`}>
+      <body className={`${inter.variable}  ${vibes.variable} ${sacramento.variable} ${roboto.variable} text-primary/75`}>
         <main className="w-screen h-screen font-roboto">
           <Bg />
           <Navbar />

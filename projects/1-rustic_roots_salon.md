@@ -14,7 +14,7 @@ Personally designed business website that perfectly captures the rustic and natu
 ---
 
 <video width="600" height="550" controls muted>
-    <source src="https://res.cloudinary.com/dtw9b5stp/video/upload/v1715566208/portfolioassets/wfqxlnfmnbe44ivei5pj.mp4" type="video/mp4">
+    <source src="https://res.cloudinary.com/dtw9b5stp/video/upload/v1716234600/portfolioassets/na7yhvrsfhm6p7cevj8a.mp4" type="video/mp4">
 </video>
 
 <button>[Visit website](https://rusticroots.salon/)</button>
@@ -30,6 +30,6 @@ Personally designed business website that perfectly captures the rustic and natu
 #### Features:
 
 - Logo/Favicon - personally made using Procreate app on Ipad.
-- Image Slider - created using UseState and Useffect with React.
-- Image Gallery - masonry grid style using TailwindCSS "columns" class and UseState to pass the value to the modal on click of each images.
+- Image Slider - created using useState and useEffect with React.
+- Image Gallery - masonry grid style using TailwindCSS "columns" class and useState to pass the value to the modal on click of each images.
 - Interactive Map - using Leaflet npm with no api keys needed.

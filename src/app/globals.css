@@ -34,7 +34,7 @@ body {
 
 @layer components {
   .bg-effect {
-    background: rgba(167, 99, 99, 0.445);
+    background: rgba(192, 154, 154, 0.445);
     backdrop-filter: blur(0.03rem);
   }
 }

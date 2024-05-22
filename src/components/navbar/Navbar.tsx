@@ -15,7 +15,7 @@ const Navbar = () => {
   const currentPath = usePathname();
 
   return (
-    <nav className="w-screen py-3 px-2 xl:px-0 fixed top-0 left-0 z-30 bg-primary/40 backdrop-blur-lg text-secondary shadow-xl">
+    <nav className="w-screen py-3 px-2 xl:px-0 fixed top-0 left-0 z-30 bg-primary/60 backdrop-blur-lg text-secondary shadow-xl">
       <div className="max-w-7xl mx-auto flex flex-row justify-between items-center px-3 xl:px-2">
         <Link
           href={"/"}
@@ -54,7 +54,7 @@ const Navbar = () => {
           href={"https://blogs.spiralsrc.dev/"}
           className=" flex-row gap-2 justify-center items-center hidden md:flex"
         >
-          <span className="p-2 rounded-full text-primary/40 bg-red-400/20 border border-primary/10 hover:border-primary/50 hover:shadow-xl hover:btn-effect">
+          <span className="p-2 rounded-full text-secondary/60 bg-red-400/10 border border-primary/20 hover:text-primary/60 hover:border-primary/50 hover:shadow-xl hover:btn-effect">
             My Blogs
           </span>
         </Link>

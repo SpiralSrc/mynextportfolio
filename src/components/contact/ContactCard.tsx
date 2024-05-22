@@ -18,7 +18,7 @@ const ContactCard = () => {
         }
         toast.success("Message sent successfully!");
       }}
-      className="md:w-[50%] bg-section-gradient1 px-3 md:px-5 text-sm md:text-md flex flex-col gap-2 md:gap-5 pt-8 md:pt-20 pb-10 md:pb-32"
+      className="md:w-[50%] bg-section-gradient3 px-3 md:px-5 text-sm md:text-md flex flex-col gap-2 md:gap-5 pt-8 md:pt-20 pb-10 md:pb-32"
     >
       <Input type="text" name="senderName" placeholder="Name" />
       <Input type="email" name="senderEmail" placeholder="Email" />

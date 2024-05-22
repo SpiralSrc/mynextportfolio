@@ -2,7 +2,12 @@ import { AiOutlineHtml5 } from "react-icons/ai";
 import { TbBrandCss3, TbBrandNextjs } from "react-icons/tb";
 import { RiJavascriptLine } from "react-icons/ri";
 import { FaReact } from "react-icons/fa";
-import { SiTailwindcss, SiMongodb, SiPrisma, SiMongoose } from "react-icons/si";
+import {
+  SiTailwindcss,
+  SiMongodb,
+  SiPrisma,
+  SiMongoose,
+} from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa6";
 
 // socials icons
@@ -78,6 +83,6 @@ export const socialsData = [
   {
     name: "Github",
     icon: FaGithub,
-    link: "https://github.com/",
+    link: "https://github.com/SpiralSrc",
   },
 ];

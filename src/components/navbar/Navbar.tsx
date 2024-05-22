@@ -16,10 +16,19 @@ const Navbar = () => {
 
   return (
     <nav className="w-screen py-3 px-2 xl:px-0 fixed top-0 left-0 z-30 bg-primary/40 backdrop-blur-lg text-secondary shadow-xl">
-      <div className="max-w-7xl mx-auto flex flex-row justify-between items-center px-3 xl:px-0">
-        <Link href={"/"} className="flex flex-row gap-2 justify-center items-center">
+      <div className="max-w-7xl mx-auto flex flex-row justify-between items-center px-3 xl:px-2">
+        <Link
+          href={"/"}
+          className="flex flex-row gap-2 justify-center items-center"
+        >
           <div className="relative w-7 h-7 md:w-9 md:h-9">
-            <Image src={logo} alt="logo" fill sizes="(max-width: 36px) 100vw, (max-width: 36px) 50vw, 33vw" className="object-cover" />
+            <Image
+              src={logo}
+              alt="logo"
+              fill
+              sizes="(max-width: 36px) 100vw, (max-width: 36px) 50vw, 33vw"
+              className="object-cover"
+            />
           </div>
           <span className="hidden sm:block font-sacramento font-bold text-md md:text-2xl bg-clip-text text-transparent bg-gradient-to-bl from-red-500 to-red-300">
             SpiralSrc
@@ -28,14 +37,34 @@ const Navbar = () => {
 
         <div className="hidden md:flex flex-row justify-center items-center gap-5 font-semibold">
           {navLinks.map((nav, id) => (
-            <Link href={nav.path} key={id} className={`${nav.path === currentPath ? "text-secondary" : "text-secondary/60"}`}>
+            <Link
+              href={nav.path}
+              key={id}
+              className={`${
+                nav.path === currentPath
+                  ? "text-secondary"
+                  : "text-secondary/60"
+              }`}
+            >
               {nav.title}
             </Link>
           ))}
         </div>
+        <Link
+          href={"https://blogs.spiralsrc.dev/"}
+          className=" flex-row gap-2 justify-center items-center hidden md:flex"
+        >
+          <span className="p-2 rounded-full text-secondary/60 bg-gradient-to-bl from-red-500/10 to-red-300/30">
+            My Blogs
+          </span>
+        </Link>
         <div className="flex md:hidden">
           {!navModal ? (
-            <GrMenu size={35} className="p-2 rounded-3xl hover:bg-secondary/50 hover:text-primary btn-effect" onClick={() => setNavModal(true)} />
+            <GrMenu
+              size={35}
+              className="p-2 rounded-3xl hover:bg-secondary/50 hover:text-primary btn-effect"
+              onClick={() => setNavModal(true)}
+            />
           ) : (
             ""
           )}

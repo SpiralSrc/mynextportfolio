@@ -2,10 +2,12 @@ import Link from "next/link";
 
 const ContactIntro = () => {
   return (
-    <section className="bg-section-gradient1">
+    <section id="contact" className="bg-section-gradient1">
       <div className="max-w-7xl mx-auto py-16 md:py-28 flex flex-col justify-center">
         <div className="w-[90%] mx-auto flex flex-col justify-center items-center gap-10 border-2 border-primary/50 rounded-xl py-20">
-          <h1 className="font-vibes text-5xl text-center">I would love to hear from you!</h1>
+          <h1 className="font-vibes text-5xl text-center">
+            I would love to hear from you!
+          </h1>
           <div className="flex">
             <Link
               href={"/contact"}

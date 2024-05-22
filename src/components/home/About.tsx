@@ -5,16 +5,25 @@ import Link from "next/link";
 
 const About = () => {
   return (
-    <section className="w-full bg-section-gradient1">
+    <section id="about" className="w-full bg-section-gradient2">
       <div className="w-full h-80 sm:h-96 md:h-[450px] lg:h-[550px] xl:h-[600px] relative rounded-b-[10%] overflow-hidden shadow-2xl">
-        <Image src={aboutBanner} alt="about banner" fill placeholder="blur" className="object-cover object-bottom lg:object-center" />
+        <Image
+          src={aboutBanner}
+          alt="about banner"
+          fill
+          placeholder="blur"
+          className="object-cover object-bottom lg:object-center"
+        />
         <ImageOverlay />
       </div>
-      <div className="max-w-7xl mx-auto h-full py-5 md:py-20 px-3 xl:px-0">
+      <div className="max-w-7xl mx-auto h-full py-5 md:py-20 px-3">
         <div className="w-full h-full text-md md:text-lg py-8 md:py-20 indent-4 flex flex-col my-10 gap-5 px-6 md:px-14 border-2 border-primary/60 rounded-xl ">
           <p className="indent-7">
-            I am a <strong>Frontend Developer</strong> based in the US, specialized in creating modern and responsive websites. With a keen eye for
-            design and a deep understanding of user experience, I excel in creating visually stunning and functional web applications.
+            I am a <strong>Frontend Developer</strong> based in the
+            US, specialized in creating modern and responsive
+            websites. With a keen eye for design and a deep
+            understanding of user experience, I excel in creating
+            visually stunning and functional web applications.
           </p>
 
           <div className="flex my-10 px-3 md:p-0">

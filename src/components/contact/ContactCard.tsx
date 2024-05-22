@@ -1,17 +1,27 @@
+"use client";
+
 import Form from "../ui/Form";
 import Input from "../ui/Input";
 import { SendButton } from "../ui/SendButton";
+import { sendEmail } from "@/actions/actions";
+import toast from "react-hot-toast";
 
 const ContactCard = () => {
-  async function send() {
-    "use server";
-
-    console.log("Button clicked!");
-  }
   return (
-    <Form action={send} className="md:w-[50%] px-3 md:px-5 text-sm md:text-md flex flex-col gap-2 md:gap-5 pt-8 md:pt-20 pb-10 md:pb-32">
-      <Input type="text" name="name" placeholder="Name" />
-      <Input type="email" name="email" placeholder="Email" />
+    <Form
+      action={async (formData) => {
+        const { error } = await sendEmail(formData);
+
+        if (error) {
+          toast.error(error);
+          return;
+        }
+        toast.success("Message sent successfully!");
+      }}
+      className="md:w-[50%] px-3 md:px-5 text-sm md:text-md flex flex-col gap-2 md:gap-5 pt-8 md:pt-20 pb-10 md:pb-32"
+    >
+      <Input type="text" name="senderName" placeholder="Name" />
+      <Input type="email" name="senderEmail" placeholder="Email" />
       <textarea
         required
         name="message"

@@ -21,7 +21,7 @@ const Navbar = () => {
           <div className="relative w-7 h-7 md:w-9 md:h-9">
             <Image src={logo} alt="logo" fill sizes="(max-width: 36px) 100vw, (max-width: 36px) 50vw, 33vw" className="object-cover" />
           </div>
-          <span className="font-sacramento font-bold text-md md:text-2xl bg-clip-text text-transparent bg-gradient-to-bl from-red-500 to-red-300">
+          <span className="hidden sm:block font-sacramento font-bold text-md md:text-2xl bg-clip-text text-transparent bg-gradient-to-bl from-red-500 to-red-300">
             SpiralSrc
           </span>
         </Link>

@@ -1,7 +1,11 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
-  content: ["./src/pages/**/*.{js,ts,jsx,tsx,mdx}", "./src/components/**/*.{js,ts,jsx,tsx,mdx}", "./src/app/**/*.{js,ts,jsx,tsx,mdx}"],
+  content: [
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
   theme: {
     extend: {
       screens: {
@@ -22,9 +26,12 @@ const config: Config = {
         vibes: ["var(--font-vibes)"],
       },
       backgroundImage: {
-        "section-gradient1": "linear-gradient(to bottom, #f59f99b0, #cea89c, #f3d5cf)",
-        "section-gradient2": "linear-gradient(to bottom, #f59f99b0, #cea89c, #f3d5cf)",
-        "dark-gradient": "linear-gradient(170deg, rgba(47,20,9,1) 38%, rgba(92,28,5,1) 79%, rgba(158,108,90,1) 96%)",
+        "section-gradient1":
+          "linear-gradient(to bottom, #f59f99b0, #cea89c, #f3d5cf)",
+        "section-gradient2":
+          "linear-gradient(to bottom, #f59f99b0, #cea89c, #f3d5cf)",
+        "dark-gradient":
+          "linear-gradient(170deg, rgba(47,20,9,1) 38%, rgba(92,28,5,1) 79%, rgba(158,108,90,1) 96%)",
         "dark-overlay": "rgba(255, 255, 255, 0.589)",
         "darker-overlay": "rgba(255, 255, 255, 1)",
         "sm-overlay": "rgba(167, 99, 99, 0.233)",
@@ -33,11 +40,14 @@ const config: Config = {
       colors: {
         primary: "rgba(54, 41, 41, 0.822)",
         secondary: "#F4DFC8",
-        "gradient-sm": "linear-gradient(to bottom, #f59f99b0, #cea89c, #f3d5cf)",
+        "gradient-sm":
+          "linear-gradient(to bottom, #f59f99b0, #cea89c, #f3d5cf)",
       },
       boxShadow: {
-        "over-inset-sm": "inset 3px 3px 50px 10px rgba(2, 2, 2, 0.412)",
-        "over-inset-md": "inset 5px 5px 100px 20px rgba(2, 2, 2, 0.712)",
+        "over-inset-sm":
+          "inset 3px 3px 50px 10px rgba(2, 2, 2, 0.412)",
+        "over-inset-md":
+          "inset 5px 5px 100px 20px rgba(2, 2, 2, 0.712)",
       },
       borderRadius: {
         trbl: "5% 40% 5% 40%",
@@ -48,18 +58,27 @@ const config: Config = {
       typography: {
         DEFAULT: {
           css: {
+            borderWidth: "2px",
             color: "rgba(54, 41, 41, 0.822)",
             h1: {
               color: "rgba(54, 41, 41, 0.822)",
+              paddingTop: "30px",
+              paddingBottom: "25px",
+              borderWidth: "0 0 2px 0",
+              borderColor: "rgba(54, 41, 41, 0.422)",
+              backgroundColor: "rgba(54, 41, 41, 0.122)",
             },
             h2: {
               color: "rgba(54, 41, 41, 0.822)",
+              paddingLeft: "20px",
             },
             h3: {
               color: "rgba(54, 41, 41, 0.822)",
+              paddingLeft: "20px",
             },
             h4: {
               color: "rgba(54, 41, 41, 0.822)",
+              paddingLeft: "20px",
             },
             a: {
               display: "flex",
@@ -74,6 +93,7 @@ const config: Config = {
               borderRadius: "20px",
               placeItem: "end",
               padding: "10px",
+              marginLeft: "20px",
               borderWidth: "1px",
               borderColor: "rgba(54, 41, 41, 0.122)",
               backgroundColor: "rgba(54, 41, 41, 0.222)",
@@ -86,9 +106,17 @@ const config: Config = {
             },
             hr: {
               borderColor: "rgba(54, 41, 41, 0.322)",
+              marginLeft: "20px",
+              marginRight: "20px",
             },
             ul: {
               color: "rgba(54, 41, 41, 0.622)",
+              marginLeft: "25px",
+              marginRight: "25px",
+            },
+            p: {
+              paddingLeft: "20px",
+              paddingRight: "20px",
             },
           },
         },

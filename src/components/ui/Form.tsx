@@ -1,4 +1,6 @@
-import { ReactNode } from "react";
+"use client";
+
+import { ReactNode, useRef } from "react";
 
 interface formProps {
   children: ReactNode;
@@ -8,8 +10,17 @@ interface formProps {
 }
 
 const Form = ({ children, action, className }: formProps) => {
+  const ref = useRef<HTMLFormElement>(null);
+
   return (
-    <form action={action} className={className}>
+    <form
+      ref={ref}
+      action={async (formData) => {
+        await action(formData);
+        ref.current?.reset();
+      }}
+      className={className}
+    >
       {children}
     </form>
   );

@@ -69,7 +69,7 @@ const config: Config = {
               paddingBottom: "25px",
               borderWidth: "0 0 2px 0",
               borderColor: "rgba(54, 41, 41, 0.422)",
-              backgroundColor: "rgba(54, 41, 41, 0.122)",
+              // backgroundColor: "rgba(54, 41, 41, 0.122)",
             },
             h2: {
               color: "rgba(54, 41, 41, 0.822)",

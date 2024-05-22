@@ -46,9 +46,9 @@ export default function page(props: any) {
   const post = getPostContent(slug);
 
   return (
-    <section className="bg-section-gradient1">
+    <section className="bg-primary backdrop-blur-md">
       <div className="max-w-7xl mx-auto flex flex-col py-16 md:py-24 px-2">
-        <div className="w-[96%] mx-auto max-w-none rounded-xl flex pb-10 border-primary/40 prose-p:indent-10 text-primary/70 marker:text-primary/80 prose lg:prose-lg prose-md prose-h1:text-center prose-h1:font-vibes prose-video:rounded-md prose-video:w-[90%] h-auto lg:prose-video:w-[60%] prose-video:mx-auto">
+        <div className="w-[96%] mx-auto bg-section-gradient3 max-w-none rounded-xl flex pb-10 border-primary/40 prose-p:indent-10 text-primary/70 marker:text-primary/80 prose lg:prose-lg prose-md prose-h1:text-center prose-h1:font-vibes prose-video:rounded-md prose-video:w-[90%] h-auto lg:prose-video:w-[60%] prose-video:mx-auto">
           <Markdown
             className=""
             options={{ overrides: renderToHtml }}
@@ -59,7 +59,7 @@ export default function page(props: any) {
         <div className="flex justify-end items-center pr-5">
           <Link
             href={"/#projects"}
-            className="py-2 px-5 my-10 bg-primary/20 rounded-xl border border-primary/20 hover:border-primary/50 hover:shadow-xl hover:btn-effect"
+            className="py-2 px-5 my-10 bg-section-gradient1 rounded-xl border border-primary/20 hover:border-primary/50 hover:shadow-xl hover:btn-effect"
           >
             Go back...
           </Link>

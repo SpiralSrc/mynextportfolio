@@ -54,7 +54,7 @@ const Navbar = () => {
           href={"https://blogs.spiralsrc.dev/"}
           className=" flex-row gap-2 justify-center items-center hidden md:flex"
         >
-          <span className="p-2 rounded-full text-secondary/60 bg-gradient-to-bl from-red-500/10 to-red-300/30">
+          <span className="p-2 rounded-full text-primary/40 bg-red-400/20 border border-primary/10 hover:border-primary/50 hover:shadow-xl hover:btn-effect">
             My Blogs
           </span>
         </Link>

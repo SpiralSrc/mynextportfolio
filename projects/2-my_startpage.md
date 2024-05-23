@@ -1,6 +1,6 @@
 ---
 title: "My Startpage"
-desc: "A fullstack  project personally using as an everyday startpage with search engine and link sources."
+desc: "A fullstack  project personally being used as an everyday startpage with search engine and link sources."
 banner: "https://res.cloudinary.com/dtw9b5stp/image/upload/v1716238091/portfolioassets/z1fjgvnaisozxwfmr7xu.png"
 website: "https://startpage.spiralsrc.dev/"
 ---
@@ -13,7 +13,7 @@ A personal fullstack project being used as an everyday startpage. Secured with a
 
 ---
 
-<video width="600" height="550" controls muted playsinline>
+<video width="600" height="550" controls muted playsinline playsInline>
     <source src="https://res.cloudinary.com/dtw9b5stp/video/upload/v1716234776/portfolioassets/cfl918nefesy3knqh4qw.mp4" type="video/mp4">
 </video>
 

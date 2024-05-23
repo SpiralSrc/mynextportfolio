@@ -1,6 +1,6 @@
 ---
 title: "Exotic"
-desc: "Personal project used as everyday startpage, with note taking using in-app rich text editor and link sources."
+desc: "A beautifully designed template that can be used as a landing page or a homepage for a travel website."
 banner: "https://res.cloudinary.com/dtw9b5stp/image/upload/v1715557199/portfolioassets/axxhy7jf1sagsmf4abvj.png"
 website: "https://startpage.spiralsrc.dev/"
 ---
@@ -13,7 +13,7 @@ A beautifully designed template that can be used as a landing page or a homepage
 
 ---
 
-<video width="600" height="550" controls muted playsinline>
+<video width="600" height="550" controls muted playsinline playsInline>
     <source src="https://res.cloudinary.com/dtw9b5stp/video/upload/v1715566171/portfolioassets/loephlml0tdxczq9nkox.mp4" type="video/mp4">
 </video>
 

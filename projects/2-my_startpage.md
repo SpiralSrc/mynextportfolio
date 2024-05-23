@@ -13,7 +13,7 @@ A personal fullstack project being used as an everyday startpage. Secured with a
 
 ---
 
-<video width="600" height="550" controls muted>
+<video width="600" height="550" controls muted playsinline>
     <source src="https://res.cloudinary.com/dtw9b5stp/video/upload/v1716234776/portfolioassets/cfl918nefesy3knqh4qw.mp4" type="video/mp4">
 </video>
 

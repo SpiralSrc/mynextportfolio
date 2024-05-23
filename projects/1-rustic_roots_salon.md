@@ -13,7 +13,7 @@ Personally designed business website that perfectly captures the rustic and natu
 
 ---
 
-<video width="600" height="550" controls muted>
+<video width="600" height="550" controls muted playsinline>
     <source src="https://res.cloudinary.com/dtw9b5stp/video/upload/v1716234600/portfolioassets/na7yhvrsfhm6p7cevj8a.mp4" type="video/mp4">
 </video>
 

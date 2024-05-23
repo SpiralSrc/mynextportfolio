@@ -2,7 +2,6 @@
 
 import EmailMessage from "@/components/emails/EmailMessage";
 import React from "react";
-import toast from "react-hot-toast";
 import { Resend } from "resend";
 
 const resend = new Resend(process.env.RESEND_API_KEY);

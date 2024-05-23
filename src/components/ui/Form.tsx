@@ -6,7 +6,7 @@ interface formProps {
   children: ReactNode;
   action: (formData: FormData) => Promise<void | null>;
   className: string;
-  onSubmit?: () => void;
+  onSubmit?: (() => void | undefined) | undefined;
 }
 
 const Form = ({ children, action, className }: formProps) => {

@@ -13,7 +13,7 @@ A beautifully designed template that can be used as a landing page or a homepage
 
 ---
 
-<video width="600" height="550" controls muted>
+<video width="600" height="550" controls muted playsinline>
     <source src="https://res.cloudinary.com/dtw9b5stp/video/upload/v1715566171/portfolioassets/loephlml0tdxczq9nkox.mp4" type="video/mp4">
 </video>
 

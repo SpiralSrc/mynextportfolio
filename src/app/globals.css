@@ -32,13 +32,6 @@ body {
   scrollbar-width: none;
 }
 
-@layer components {
-  .bg-effect {
-    background: rgba(192, 154, 154, 0.445);
-    backdrop-filter: blur(0.03rem);
-  }
-}
-
 @layer utilities {
   .bg-contact {
     background-image: url("../../public/assets/pic1.jpg");
@@ -46,16 +39,21 @@ body {
     background-repeat: no-repeat;
   }
 
+  .bg-effect {
+    background: rgba(192, 154, 154, 0.445);
+    backdrop-filter: blur(0.03rem);
+  }
+
   .text-balance {
     text-wrap: balance;
   }
 
   .smooth-effect {
-    transition: all 700ms ease-in;
+    transition: all 700ms ease-in-out;
   }
 
   .btn-effect {
-    transition: all 500ms ease-in;
+    transition: all 500ms ease-in-out;
   }
 
   .slideFromLeft {

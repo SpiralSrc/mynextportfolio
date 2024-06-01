@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import logo from "../../../public/assets/logo.png";
+import logo from "../../../public/assets/logo2.png";
 import Link from "next/link";
 import { navLinks } from "@/lib/data/LinksData";
 import { GrMenu } from "react-icons/gr";
@@ -30,7 +30,7 @@ const Navbar = () => {
               className="object-cover"
             />
           </div>
-          <span className="hidden sm:block font-sacramento font-bold text-md md:text-2xl bg-clip-text text-transparent bg-gradient-to-bl from-red-500 to-red-300">
+          <span className="hidden sm:block font-sacramento font-bold text-md md:text-2xl bg-clip-text text-transparent bg-gradient-to-br from-pink-700 via-pink-200 to-orange-900 via-30%">
             SpiralSrc
           </span>
         </Link>

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import imageme from "../../../public/assets/my3d.png";
 
 const Me = () => {
   return (
@@ -12,14 +13,12 @@ const Me = () => {
         </div>
       </div>
       <div className="flex justify-center items-center">
-        <div className="w-28 md:w-36 h-36 md:h-48 rounded-full overflow-hidden relative bg-primary/70 border-2 border-primary">
+        <div className="w-28 md:w-36 h-36 md:h-48 relative px-5">
           <Image
-            src={
-              "https://res.cloudinary.com/dtw9b5stp/image/upload/v1716240822/portfolioassets/z44fqzdgu3uq1fum0y46.png"
-            }
+            src={imageme}
             fill
             alt="me"
-            className="w-full h-full object-cover -translate-x-1 translate-y-1 scale-105 hover:scale-110 hover:smooth-effect opacity-70 blur-[0.5px]"
+            className="w-full h-full object-contain  opacity-70 blur-[0.5px]"
           />
         </div>
       </div>

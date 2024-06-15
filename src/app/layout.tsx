@@ -30,12 +30,21 @@ const sacramento = Sacramento({
   variable: "--font-sacramento",
 });
 
+const baseUrl = process.env.MY_URL;
+
 export const metadata: Metadata = {
+  metadataBase: new URL(`${baseUrl}`),
   title: {
     default: "SpiralSrc",
     template: "%s | SpiralSrc",
   },
   description: "Welcome to my personal website!",
+  openGraph: {
+    title: "SpiralSrc",
+    description: "Welcome to my personal website!",
+    url: baseUrl,
+    siteName: "SpiralSrc",
+  },
 };
 
 export default function RootLayout({

@@ -2,6 +2,10 @@ import ContactCard from "@/components/contact/ContactCard";
 import ImageOverlay2 from "@/components/ui/ImageOverlay2";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Contact",
+};
+
 export default function page() {
   return (
     <section className="bg-primary backdrop-blur-md">

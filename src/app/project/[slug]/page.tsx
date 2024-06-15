@@ -19,13 +19,11 @@ export const generateStaticParams = async () => {
   return posts.map((post) => ({ slug: post.slug }));
 };
 
-export async function generateMetadata({
-  params,
-  searchParams,
-}: any) {
-  const id = params?.slug ? "|" : "";
+export async function generateMetadata({ params }: any) {
+  const slug = params?.slug ? " " : "";
+
   return {
-    title: `SpiralSrc Project ${id.replaceAll("_", " ")}`,
+    title: `Project ${slug.replaceAll("_", " ")}`,
   };
 }
 

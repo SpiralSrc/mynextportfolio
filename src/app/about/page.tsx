@@ -3,6 +3,10 @@ import MoreAbout from "@/components/about/MoreAbout";
 import Skills from "@/components/about/Skills";
 import Link from "next/link";
 
+export const metadata = {
+  title: "About",
+};
+
 export default function page() {
   return (
     <section className="bg-primary backdrop-blur-md">

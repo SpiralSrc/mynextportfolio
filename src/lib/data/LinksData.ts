@@ -1,5 +1,9 @@
 import { AiOutlineHtml5 } from "react-icons/ai";
-import { TbBrandCss3, TbBrandNextjs } from "react-icons/tb";
+import {
+  TbBrandCss3,
+  TbBrandNextjs,
+  TbBrandTypescript,
+} from "react-icons/tb";
 import { RiJavascriptLine } from "react-icons/ri";
 import { FaReact } from "react-icons/fa";
 import {
@@ -46,16 +50,8 @@ export const skillsData = [
     icon: TbBrandNextjs,
   },
   {
-    name: "HTML5",
-    icon: AiOutlineHtml5,
-  },
-  {
-    name: "CSS3",
-    icon: TbBrandCss3,
-  },
-  {
-    name: "Javascript",
-    icon: RiJavascriptLine,
+    name: "Typescript",
+    icon: TbBrandTypescript,
   },
   {
     name: "Tailwindcss",
@@ -76,6 +72,18 @@ export const skillsData = [
   {
     name: "Mongoose",
     icon: SiMongoose,
+  },
+  {
+    name: "HTML5",
+    icon: AiOutlineHtml5,
+  },
+  {
+    name: "CSS3",
+    icon: TbBrandCss3,
+  },
+  {
+    name: "Javascript",
+    icon: RiJavascriptLine,
   },
 ];
 
